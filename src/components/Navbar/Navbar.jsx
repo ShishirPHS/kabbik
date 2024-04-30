@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import logo from "../../assets/navLogo.png";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
             </label>
           </div>
           <div className="flex-1">
-            <img src="../src/assets/navLogo.png" alt="Website Logo" />
+            <img src={logo} alt="Website Logo" />
           </div>
         </div>
         {/* navbar for large devices */}
