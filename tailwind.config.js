@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         fontNarrow: ["Archivo Narrow", "sans-serif"],
+        fontOxanium: ["Oxanium", "sans-serif"],
+        fontInter: ["Inter", "sans-serif"],
       },
     },
   },

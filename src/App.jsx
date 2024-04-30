@@ -1,4 +1,5 @@
-import Navbar from "./assets/components/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           {/* Navbar */}
           <Navbar></Navbar>
           {/* Page content here */}
-          Content
+          <Banner></Banner>
         </div>
         <div className="drawer-side">
           <label
