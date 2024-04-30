@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
+import Populwe from "./components/Populwe/Populwe";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Navbar></Navbar>
           {/* Page content here */}
           <Banner></Banner>
+          <Populwe></Populwe>
         </div>
         <div className="drawer-side">
           <label
