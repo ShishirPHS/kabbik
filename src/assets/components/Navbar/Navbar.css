@@ -2,6 +2,28 @@
   font-family: "Archivo Narrow", sans-serif;
 }
 
+.largeNav li a {
+  margin-right: 40px;
+  padding: 0;
+}
+
+.largeNav li a:hover {
+  background: none !important;
+}
+
+.largeNav li a:focus {
+  background: none !important;
+}
+
+.navCartBtn:focus {
+  background: transparent !important;
+}
+
+.navLogInBtn:focus {
+  background: #2f6f59 !important;
+  color: white !important;
+}
+
 .sideNav {
   font-family: "Archivo Narrow", sans-serif;
 }

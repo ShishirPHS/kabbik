@@ -45,12 +45,12 @@ const Navbar = () => {
               <a>Services</a>
             </li>
             <li>
-              <button className="px-[26px] py-[6px] bg-[#2F6F59] rounded-[20px] text-white">
+              <button className="px-[26px] py-[6px] bg-[#2F6F59] hover:bg-[#2F6F59] hover:text-white rounded-[20px] text-white mr-[40px] navLogInBtn">
                 Login
               </button>
             </li>
             <li>
-              <button className="pr-0">
+              <button className="p-0 hover:bg-transparent navCartBtn">
                 <img src="../src/assets/cartIcon.png" alt="icon of cart" />
               </button>
             </li>
