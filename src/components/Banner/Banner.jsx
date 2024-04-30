@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
             <div>
               <img
-                className="absolute right-[108px] top-0 z-10"
+                className="absolute right-0 top-0 z-10"
                 src={bannerRight}
                 alt="Banner Image"
               />
@@ -39,7 +39,7 @@ const Banner = () => {
         </div>
       </div>
       {/* banner lower */}
-      <div className="bg-[#FDCC1A] pt-[42px] pb-[60px] relative">
+      <div className="bg-[#FDCC1A] pt-[42px] pb-[60px] relative px-2">
         <div className="container mx-auto">
           <div className="flex">
             <button
