@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import BigSale from "./components/BigSale/BigSale";
 import Navbar from "./components/Navbar/Navbar";
 import Populwe from "./components/Populwe/Populwe";
 
@@ -13,6 +14,7 @@ function App() {
           {/* Page content here */}
           <Banner></Banner>
           <Populwe></Populwe>
+          <BigSale></BigSale>
         </div>
         <div className="drawer-side">
           <label
